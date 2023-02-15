@@ -6,9 +6,9 @@ function include(url) {
 
 include("/last_HW/main.js");
 
-let linkPrevios = "document.location='/pages/taskThird/taskThird.html'";
-let linkHome = "document.location='/index.html'";
-let linkNext = "document.location='/pages/taskFifth/taskFifth.html'";
+let linkPrevios = "document.location='../taskThird/taskThird.html'";
+buttonHomeLink();
+let linkNext = "document.location='../taskFifth/taskFifth.html'";
 let titlePage = "Fourth task";
 let paragraphPageRu =
     "В JS объявлен массив с ссылками на картинки. На основе этого массива формируется множество маленьких картинок в верхней части интерфейса. При нажатии на одну из картинок забирается ссылка на эту картинку и в нижней части интерфейса отображается в большем размере. Так, пользователь, нажимая на маленькие картинки видит их отображение в большем размере.";

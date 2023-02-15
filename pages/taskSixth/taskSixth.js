@@ -6,9 +6,9 @@ function include(url) {
 
 include("/last_HW/main.js");
 
-let linkPrevios = "document.location='/pages/taskFifth/taskFifth.html'";
-let linkHome = "document.location='/index.html'";
-let linkNext = "document.location='/pages/taskSeventh/taskSeventh.html'";
+let linkPrevios = "document.location='../taskFifth/taskFifth.html'";
+buttonHomeLink();
+let linkNext = "document.location='../taskSeventh/taskSeventh.html'";
 let titlePage = "Sixth task";
 let paragraphPageRu =
     "Добавить внизу кнопки RU и EN при нажатии на которые все карточки переключаются на русский или английский соответственно.";

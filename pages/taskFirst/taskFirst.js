@@ -7,8 +7,8 @@ function include(url) {
 include("/last_HW/main.js");
 
 let linkPrevios = "document.location='/index.html'";
-let linkHome = "document.location='/index.html'";
-let linkNext = "document.location='/pages/taskSecond/taskSecond.html'";
+buttonHomeLink();
+let linkNext = "document.location='../taskSecond/taskSecond.html'";
 let titlePage = "First task";
 let paragraphPageRu =
     "Написать программу, которая формирует на основе массива строк множество параграфов и выводит их в интерфейс. При клике на параграф текст должен меняться на звездочки. На данном этапе делать процесс обратимым при повторном клике необязательно.";

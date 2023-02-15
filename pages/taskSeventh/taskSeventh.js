@@ -6,9 +6,9 @@ function include(url) {
 
 include("/last_HW/main.js");
 
-let linkPrevios = "document.location='/pages/taskSixth/taskSixth.html'";
-let linkHome = "document.location='/index.html'";
-let linkNext = "document.location='/pages/taskFirst/taskFirst.html'";
+let linkPrevios = "document.location='../taskSixth/taskSixth.html'";
+buttonHomeLink();
+let linkNext = "document.location='../taskFirst/taskFirst.html'";
 let titlePage = "Seventh task";
 let paragraphPageRu =
     "Написать цикл, который создает множество div-ов c цветами от rgb(128, 128, 0) до rgb(128, 128, 255). У дивов цвет должен меняться с шагом 5.";

@@ -45,6 +45,10 @@ navBut(buttonPrevious, linkPrevios, "previous page", "#654321");
 navBut(buttonHome, linkHome, "home page", "#FFA500");
 navBut(buttonNext, linkNext, "next page", "#FFFF00");
 
+function buttonHomeLink(){
+    let linkHome = "document.location='.../index.html'";
+}
+
 let title = document.createElement("h1");
 title.classList.add("title");
 title.innerText = titlePage;

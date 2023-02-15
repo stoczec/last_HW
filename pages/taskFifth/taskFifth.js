@@ -6,9 +6,9 @@ function include(url) {
 
 include("/last_HW/main.js");
 
-let linkPrevios = "document.location='/pages/taskFourth/taskFourth.html'";
-let linkHome = "document.location='/index.html'";
-let linkNext = "document.location='/pages/taskSixth/taskSixth.html'";
+let linkPrevios = "document.location='../taskFourth/taskFourth.html'";
+buttonHomeLink();
+let linkNext = "document.location='../taskSixth/taskSixth.html'";
 let titlePage = "Fifth task";
 let paragraphPageRu =
     "Есть массив из объектов. Каждый объект имеет свойства en и ru. В свойстве en написано слово на английском, а в свойстве ru на русском. Необходимо реализовать карточки, при нажатии на которые слова с русского меняются на английский и обратно. Подсказка. В каждой карточке должно быть два параграфа. В одном написано на русском, а во втором на английском и при нажатии на карточку один параграф получает класс с display none а второй с display block.";

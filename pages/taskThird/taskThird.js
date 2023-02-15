@@ -6,9 +6,9 @@ function include(url) {
 
 include("/last_HW/main.js");
 
-let linkPrevios = "document.location='/pages/taskSecond/taskSecond.html'";
-let linkHome = "document.location='/index.html'";
-let linkNext = "document.location='/pages/taskFourth/taskFourth.html'";
+let linkPrevios = "document.location='../taskSecond/taskSecond.html'";
+buttonHomeLink();
+let linkNext = "document.location='../taskFourth/taskFourth.html'";
 let titlePage = "Third task";
 let paragraphPageRu =
     "Доработать прошлый скрипт таким образом, чтобы при повторном нажатии класс active удалялся.";
