@@ -4,7 +4,7 @@ function include(url) {
     document.getElementsByTagName("head")[0].appendChild(script);
 }
 
-include("/main.js");
+include("/last_HW/main.js");
 
 let linkPrevios = "document.location='/pages/taskFifth/taskFifth.html'";
 let linkHome = "document.location='/index.html'";
