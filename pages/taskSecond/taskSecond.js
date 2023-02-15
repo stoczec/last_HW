@@ -6,9 +6,9 @@ function include(url) {
 
 include("/last_HW/main.js");
 
-let linkPrevios = "document.location='/pages/taskFirst/taskFirst.html'";
-let linkHome = "document.location='/index.html'";
-let linkNext = "document.location='/pages/taskThird/taskThird.html'";
+let linkPrevios = "document.location='../pages/taskFirst/taskFirst.html'";
+let linkHome = "document.location='../index.html'";
+let linkNext = "document.location='../taskThird/taskThird.html'";
 let titlePage = "Second task";
 let paragraphPageRu =
     " Реализовать 10 карточек с числами от 0 до 9 и при нажатии на какую-либо карточку присвоить ей класс active. В классе active должны быть стили, которые меняют цвет текста и цвет заднего фона местами.";
