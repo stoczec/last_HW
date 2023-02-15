@@ -12,7 +12,7 @@ title.innerText = "My last home work, basic frontend course(((";
 document.body.append(title);
 title.style.textAlign = "center";
 title.style.marginBottom = "100px";
-title.style.fontSize = "50px";
+title.style.fontSize = "8vh";
 title.style.fontWeight = "bold";
 title.style.fontFamily = "Gilroy";
 title.style.color = "#ffe1ff";
@@ -37,6 +37,7 @@ function buttons(but, butName, butLink, butColor, butBGI) {
     but.style.border = "none";
     but.style.width = size;
     but.style.height = size;
+    but.style.paddingBottom = "7%";
     but.style.color = "white";
     but.style.fontSize = "0";
     but.style.fontWeight = "bold";
